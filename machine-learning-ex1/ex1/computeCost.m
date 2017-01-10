@@ -14,7 +14,7 @@ J = 0;
 %               You should set J to the cost.
 
 hx = X * theta;
-J = (1/2*m)* sum((hx - y).^2)
+J = (1/(2*m))* sum((hx - y).^2)
 
 
 
